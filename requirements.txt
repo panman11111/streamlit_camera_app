@@ -1,0 +1,4 @@
+opencv-python==4.5.5.62
+streamlit==1.5.0
+matplotlib==3.5.0
+numpy==1.21.4
