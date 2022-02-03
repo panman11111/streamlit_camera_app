@@ -72,7 +72,7 @@ while cap.isOpened:
         # 画面右上にカウントを表示
         cv2.putText(img, 
         f"count:{count}", 
-        org=(width-200, 50), 
+        org=(415, 50), 
         fontFace=cv2.FONT_HERSHEY_DUPLEX,
         fontScale=1.5,
         color=(0, 0, 0),
