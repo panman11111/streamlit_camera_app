@@ -16,9 +16,8 @@ if device.isnumeric():
 # カメラを取得
 cap = cv2.VideoCapture(device)
 
-# サイズの取得
+# カメラの画像を取得
 ret, img = cap.read()
-height, width = img.shape[:2]
 
 # 実行開始時刻を秒単位で保存
 change_moment = time.time()
